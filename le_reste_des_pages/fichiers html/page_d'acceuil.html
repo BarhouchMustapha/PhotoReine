@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Photo Reine
+    </title>
+    <link rel="stylesheet" href ="../fichiers css/stylee.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <ul>
+        <a class="ref" href="">CONCOURS</a>
+        <a class="ref" href="#gagn">GAGNANTS</a>
+        <a class="ref" href="#Prof">PROFIL</a>
+        <img class="icon-nav" src="../../Affichage/image/icon-utilisateur.jpg" alt="icon utilisateur en couleur"/>
+        <img class="logo" src="../../Affichage/image/photoreine.png" alt="logo de la page web en couleur"/>
+        </ul>
+        <hr>
+    </nav>
+    <main>
+        <div id="partie-gagnants">
+            <div id="annonce-gagnant">
+                <!-- ici il faut mettre le code php pour avoir la photo reine de la base de donnee -->
+                <h1>
+                    La Photo Reine
+                </h1>
+                <h2>
+                    Pour la catégorie Autoportrait est
+                </h2>
+                <img id="bulle-commentaire" src="../../Affichage/image/bulle.png" alt="icon de bulle de commentaire">
+                <p>
+                    <!--code php manquant-->
+                    Voici l'ensemble des commentaires sorties de la base de données
+                </p>
+                <a id="ajout-commentaire" href=""> Ajouter un commentaire...</a>
+                <br><br><br>
+                <button class="bouton">Lien des gagnants</button>
+                <br><br><br>
+            </div>
+            <div id="partie-photo-gagnante">
+                <img id="photo-gagnante" src="../../Affichage/image/portrait-gagnant.avif" alt="photo du gagnant sortie de la base de données">
+                <p id="legende-photo-gagnant">Photo de "Nom du gagnant sorti de la base de données"</p>
+            </div>
+        </div>
+        <!-- ici il faudra mettre le code php qui recupere les cotegerie de la semaine qui sont misent en jeux -->
+        <div class="partie-concours-de-la-semaine">
+            <div id="photos-concours">
+                <img class="photo-partie-concours" src="../../Affichage/image/nature.jpeg" alt="une photo de la categorie nature sortie de la base de données">
+                <p class="legende-photo-concours">Nature</p>
+                <img class="photo-partie-concours"  src="../../Affichage/image/portrait.jpeg" alt="une photo de la categorie portrait sortie de la base de données">
+                <p class="legende-photo-concours">Portrait</p>
+                <img class="photo-partie-concours"  src="../../Affichage/image/animal.jpeg" alt="une photo de la categorie animal sortie de la base de données">
+                <p class="legende-photo-concours">Animal</p>
+            </div>
+            <div id="annonce-concours">
+                <h2>Les concours de la semaine</h2>
+                Pour cette semaine les concours en jeu sont:
+                <ul> 
+                    <li>
+                        nature
+                    </li>
+                    <li>
+                        portrait
+                    </li>
+                    <li>
+                        animal
+                    </li>
+                </ul>
+                A vos appareils photo !
+                <br><br>
+                <button class="bouton">Lien vers les concours</button>
+            </div>
+        </div>
+    </main>
+  </body> 
+  </html> 

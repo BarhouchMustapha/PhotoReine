@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ref{
+    color: black;
+    background-color: #9aee49;
+    border-radius: 15px;
+    margin-right: 7%;
+    margin-left: 7%;
+    padding: 1%; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+h1{
+    font-weight: 500;
+}
+hr{
+    background-color: cyan;
+    border: NONE;
+    height: 4px;
+    margin-top: 30px;
+}
+.icon-nav{
+    width: 5%;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+.logo{
+    width: 5%;
+    float: right;
+    margin-top: 0.5%;
+}
+.nav{
+    align-items: center;
+    margin: auto;
+    padding: 5%;
+    margin-top: 0%;
+}
+.bouton{
+    color: white;
+    border: none;
+    background-color: #00ecce;
+    border-radius: 40px;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#partie-gagnants{
+    border-bottom: 3px solid rgb(233, 233, 233);
+    display: flex;
+}
+#annonce-gagnant{
+    float:left;
+}
+#partie-photo-gagnante{
+    float: right;
+}
+#photo-gagnante{
+    border-radius: 15px;
+    width:50%;
+    float:left;
+    margin-left: 20%;
+}
+#legende-photo-gagnant{
+    width:20%;
+    float: right;
+    margin-right: 7%;
+}
+#bulle-commentaire{
+    width:10%;
+}
+#ajout-commentaire{
+    color: gray;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.photo-partie-concours {
+    border-radius: 15px;
+    width:40%;
+    margin: 3%;
+}
+#photos-concours{
+    float:left;
+    width:70%;
+}
+#annonce-concours{
+    float:right;
+    width:30%;
+    margin-left: 20%;   
+}
+.partie-concours-de-la-semaine{
+    display: flex;
+}
+.legende-photo-concours{
+    font-weight:900;
+    margin-left: 3%;
+}
+.concours{
+    background-color: #dfffe1;
+    border-radius: 15px;
+    margin: 1%;
+    font-weight: 600;
+    padding-top: 0.1%;
+    padding-left: 0.5%;
+}
+.aflexer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-bande-concours{
+    border-radius: 10px;
+    margin: 1%;
+    width: 20%;
+}
+.aflexer > .bouton{
+    margin-left: 7%;
+    align-self: center;
+}
+.titre-gauche{
+    float:left;
+}
+#bouton-droite{
+    float:right;
+    width:20%;
+}
+#bouton-droite > .bouton{
+    padding: 7%;
+}
+.photo-gagnantes{
+    border-radius: 15px;
+    width: 20%;
+    margin:1%;
+}
+#les-photos-des-categories{
+    display: inline-flex;
+}
